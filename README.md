@@ -19,7 +19,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 To access the application on heroku go to the following link:
 
-- [Simpson numerical integration value search](https://shrouded-hamlet-63058.herokuapp.com/simpsonIntegralXValue)
+- [Simpson numerical integration value search](https://salty-meadow-44541.herokuapp.com/simpsonIntegralXValue)
 
 ## Javadoc
 
