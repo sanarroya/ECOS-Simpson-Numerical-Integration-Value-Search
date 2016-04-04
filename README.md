@@ -1,4 +1,4 @@
-# Simpson numerical integration
+# Simpson Numerical Integration Value Search 
 
 Program to find the value of x for which integrating the t function from 0 to x gives a result of p
 
@@ -19,10 +19,10 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 To access the application on heroku go to the following link:
 
-- [Simpson numerical integration](https://shrouded-hamlet-63058.herokuapp.com/simpsonIntegralXValue)
+- [Simpson numerical integration value search](https://shrouded-hamlet-63058.herokuapp.com/simpsonIntegralXValue)
 
 ## Javadoc
 
 To access the application javadoc go to the following link:
-- [Simpson numerical integration javadoc](http://sanarroya.github.io/ECOS-Simpson-Numerical-Integration/target/site/apidocs/index.html)
+- [Simpson numerical integration value search javadoc](http://sanarroya.github.io/ECOS-Simpson-Numerical-Integration/target/site/apidocs/index.html)
 
