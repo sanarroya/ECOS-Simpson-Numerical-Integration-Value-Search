@@ -1,40 +1,28 @@
-# java-getting-started
+# Simpson numerical integration
 
-A barebones Java app, which can easily be deployed to Heroku.
-
-This application supports the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Program to find the value of x for which integrating the t function from 0 to x gives a result of p
 
 ## Running Locally
 
 Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
-$ mvn install
-$ heroku local:start
+$ git clone https://github.com/sanarroya/ECOS-Simpson-Numerical-Integration.git
+$ cd ECOS-Simpson-Numerical-Integration-Value-Search
+$ mvn clean install
+$ heroku local web
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-If you're going to use a database, ensure you have a local `.env` file that reads something like this:
+## Heroku
 
-```
-DATABASE_URL=postgres://localhost:5432/java_database_name
-```
+To access the application on heroku go to the following link:
 
-## Deploying to Heroku
+- [Simpson numerical integration](https://shrouded-hamlet-63058.herokuapp.com/simpsonIntegralXValue)
 
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
+## Javadoc
 
-## Documentation
+To access the application javadoc go to the following link:
+- [Simpson numerical integration javadoc](http://sanarroya.github.io/ECOS-Simpson-Numerical-Integration/target/site/apidocs/index.html)
 
-For more information about using Java on Heroku, see these Dev Center articles:
-
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
