@@ -14,13 +14,20 @@ import static spark.Spark.get;
 import com.heroku.sdk.jdbc.DatabaseUrl;
 
 public class Main {
-
+  
+  /**
+     * Main method, where the endpoints are defined
+     * 
+     * @param args
+     */
   public static void main(String[] args) {
 
     port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
 
-    get("/hello", (req, res) -> "Hello World");
+    get("/simpsonIntegralXValue", (req, res) -> {
+        return "X VALUE";
+    });
 
     get("/", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
