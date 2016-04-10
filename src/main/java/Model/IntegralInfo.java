@@ -17,6 +17,7 @@ public class IntegralInfo {
     private double integralUpperLimit;
     private double integralResult;
     private double expectedResult;
+    private double expectedUpperLimit;
 
     /**
      *Empty constructor of the class

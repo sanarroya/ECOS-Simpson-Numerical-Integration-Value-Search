@@ -27,6 +27,11 @@ public class Controller {
         return LoadData.loadDataFromFile(fileName);
     }
     
+    /**
+     * Finds x value for which the p value is valid
+     * @param integralInfo object with all integral information
+     * @return
+     */
     public IntegralInfo findXValue(IntegralInfo integralInfo) {
         return Search.xValue(integralInfo);
     }

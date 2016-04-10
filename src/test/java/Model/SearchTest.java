@@ -37,10 +37,17 @@ public class SearchTest {
     public void tearDown() {
     }
 
+    /**
+     * Test of xValue method, of class Search.
+     */
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testXValue() {
+        System.out.println("xValue");
+        IntegralInfo integralInfo = new IntegralInfo(4.0, 10.0, 0.0, 3.0, 0.495);
+        double expResult = 4.60409;
+        double result = Search.xValue(integralInfo).getIntegralUpperLimit();
+        System.out.println("Expected result: " + expResult + " Actual result: " + result);
+        assertEquals(expResult, result, 0.2);
     }
     
 }

@@ -11,8 +11,10 @@ package Model;
  */
 public class CalculationManager {
     
-   
-    static private final double ACCEPTABLE_ERROR = 0.00001;
+    /**
+     *
+     */
+    static public final double ACCEPTABLE_ERROR = 0.00001;
     
     /**
      *Calculates the integral using the Simpson method
@@ -126,4 +128,7 @@ public class CalculationManager {
         }
         return oddSumatory;
     }
+    
+    
+    
 }
