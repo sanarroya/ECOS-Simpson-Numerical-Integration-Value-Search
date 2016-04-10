@@ -46,7 +46,6 @@ public class SearchTest {
         IntegralInfo integralInfo = new IntegralInfo(4.0, 10.0, 0.0, 3.0, 0.495);
         double expResult = 4.60409;
         double result = Search.xValue(integralInfo).getIntegralUpperLimit();
-        System.out.println("Expected result: " + expResult + " Actual result: " + result);
         assertEquals(expResult, result, 0.2);
     }
     

@@ -47,9 +47,9 @@ public class LoadDataTest {
         System.out.println("loadDataFromFile");
         String fileName = "dataset.txt";
         List<IntegralInfo> expResult = new ArrayList<>();
-        expResult.add(new IntegralInfo(9, 10.0, 0.0, 1.1, 0.35006));
-        expResult.add(new IntegralInfo(10.0, 10.0 , 0.0, 1.1812, 0.36757));
-        expResult.add(new IntegralInfo(30.0, 10.0, 0.0, 2.750, 0.49500));
+        expResult.add(new IntegralInfo(6.0, 10.0, 0.0, 0.0, 0.20));
+        expResult.add(new IntegralInfo(15.0, 10.0 , 0.0, 1.0, 0.45));
+        expResult.add(new IntegralInfo(4.0, 10.0, 0.0, 3.0, 0.495));
         int equalValues = 0;
         List<IntegralInfo> result = LoadData.loadDataFromFile(fileName);
         if(expResult.size() == result.size()) {
