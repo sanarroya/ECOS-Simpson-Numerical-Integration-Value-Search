@@ -1,3 +1,5 @@
+import Controller.Controller;
+import Model.IntegralInfo;
 import java.sql.*;
 import java.util.HashMap;
 import java.util.ArrayList;
@@ -12,6 +14,7 @@ import spark.ModelAndView;
 import static spark.Spark.get;
 
 import com.heroku.sdk.jdbc.DatabaseUrl;
+import java.util.List;
 
 /**
  *
@@ -30,7 +33,20 @@ public class Main {
     staticFileLocation("/public");
 
     get("/simpsonIntegralXValue", (req, res) -> {
-        return "X VALUE";
+        
+        final String FILE_NAME = "dataset.txt";
+        List<IntegralInfo> data;
+        Controller controller = new Controller();
+        data = controller.loadClassInfo(FILE_NAME);
+        String dataString = "<p><br><table border=\"1\">";
+        dataString += "<tr align=\"center\"><td><b>p</b></td><td><b>dof</b></td><td><b>Expected X<br>Value</b></td><td><b>Actual X<br>Value</b></td></tr>";
+        for(IntegralInfo integralCase : data) {
+            integralCase = controller.findXValue(integralCase);
+            dataString += String.format("<tr><td>%f</td><td>%f</td><td>%f</td><td>%f</td></tr>", integralCase.getExpectedResult(), integralCase.getDegreesOfFreedom(), integralCase.getExpectedUpperLimit(), integralCase.getIntegralUpperLimit());
+        }
+        
+        dataString += "</table><br>";
+        return dataString;        
     });
 
     get("/", (request, response) -> {

@@ -35,15 +35,4 @@ public class Controller {
     public IntegralInfo findXValue(IntegralInfo integralInfo) {
         return Search.xValue(integralInfo);
     }
-    
-    /**
-     * Calculates Simpson integral
-     * 
-     * @param integralInfo
-     * @return IntegraInfo object with all integral information
-     */
-    private IntegralInfo calculateSimpsonIntegral(IntegralInfo integralInfo) {
-        return CalculationManager.simpsonIntegral(integralInfo);
-    }
-    
 }

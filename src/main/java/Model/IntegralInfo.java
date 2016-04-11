@@ -157,6 +157,21 @@ public class IntegralInfo {
     public void setExpectedResult(double expectedResult) {
         this.expectedResult = expectedResult;
     }
-    
-    
+
+    /**
+     *Expected upper limit setter
+     * 
+     * @param expectedUpperLimit
+     */
+    public void setExpectedUpperLimit(double expectedUpperLimit) {
+        this.expectedUpperLimit = expectedUpperLimit;
+    }
+
+    /**
+     * Expected upper limit getter
+     * @return
+     */
+    public double getExpectedUpperLimit() {
+        return expectedUpperLimit;
+    }
 }

@@ -43,6 +43,7 @@ public class LoadData {
                     integralInfo.setIntegralUpperLimit(Double.parseDouble(stringsInLine[1]));
                     integralInfo.setDegreesOfFreedom(Double.parseDouble(stringsInLine[2]));
                     integralInfo.setExpectedResult(Double.parseDouble(stringsInLine[3]));
+                    integralInfo.setExpectedUpperLimit(Double.parseDouble(stringsInLine[4]));
                     integralInfo.setNumberOfSegments(10.0);
                     dataList.add(integralInfo);
                 }
