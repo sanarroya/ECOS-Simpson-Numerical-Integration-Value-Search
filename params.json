@@ -1,0 +1,6 @@
+{
+  "name": "ECOS Simpson Numerical Integration Value Search",
+  "tagline": "ECOS Simpson Numerical Integration Value Search",
+  "body": "# Simpson Numerical Integration Value Search \r\n\r\nProgram to find the value of x for which integrating the t function from 0 to x gives a result of p\r\n\r\n## Running Locally\r\n\r\nMake sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).\r\n\r\n```sh\r\n$ git clone https://github.com/sanarroya/ECOS-Simpson-Numerical-Integration.git\r\n$ cd ECOS-Simpson-Numerical-Integration-Value-Search\r\n$ mvn clean install\r\n$ heroku local web\r\n```\r\n\r\nYour app should now be running on [localhost:5000](http://localhost:5000/).\r\n\r\n## Heroku\r\n\r\nTo access the application on heroku go to the following link:\r\n\r\n- [Simpson numerical integration value search](https://salty-meadow-44541.herokuapp.com/simpsonIntegralXValue)\r\n\r\n## Javadoc\r\n\r\nTo access the application javadoc go to the following link:\r\n- [Simpson numerical integration value search javadoc](http://sanarroya.github.io/ECOS-Simpson-Numerical-Integration/target/site/apidocs/index.html)\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
