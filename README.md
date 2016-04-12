@@ -24,5 +24,5 @@ To access the application on heroku go to the following link:
 ## Javadoc
 
 To access the application javadoc go to the following link:
-- [Simpson numerical integration value search javadoc](http://sanarroya.github.io/ECOS-Simpson-Numerical-Integration/target/site/apidocs/index.html)
+- [Simpson numerical integration value search javadoc](http://sanarroya.github.io/ECOS-Simpson-Numerical-Integration-Value-Search/)
 
