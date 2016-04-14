@@ -1,4 +1,4 @@
-# Simpson Numerical Integration Value Search 
+#Simpson Numerical Integration Value Search 
 
 Program to find the value of x for which integrating the t function from 0 to x gives a result of p
 
@@ -15,6 +15,15 @@ $ heroku local web
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
+## Unit Tests
+
+Make sure you have Java and Maven installed and run the following command:
+
+```sh
+$ cd ECOS-Simpson-Numerical-Integration-Value-Search
+$ mvn test
+```
+
 ## Heroku
 
 To access the application on heroku go to the following link:
@@ -25,4 +34,3 @@ To access the application on heroku go to the following link:
 
 To access the application javadoc go to the following link:
 - [Simpson numerical integration value search javadoc](http://sanarroya.github.io/ECOS-Simpson-Numerical-Integration-Value-Search/target/site/apidocs/index.html)
-
