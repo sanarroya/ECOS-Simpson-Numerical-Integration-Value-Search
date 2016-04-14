@@ -7,7 +7,7 @@ Program to find the value of x for which integrating the t function from 0 to x 
 Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone https://github.com/sanarroya/ECOS-Simpson-Numerical-Integration.git
+$ git clone https://github.com/sanarroya/ECOS-Simpson-Numerical-Integration-Value-Search.git
 $ cd ECOS-Simpson-Numerical-Integration-Value-Search
 $ mvn clean install
 $ heroku local web
